@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.background{
+    background-image: url(../imagens/roxo.jpg);
+    background-size:cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 14px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #6f00ff;
+    transition: 0.3s all;
+}
+
+button{
+    color: #ffffff;
+    background: transparent;
+    border:solid 1px #ffffff;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #6f00ff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+    margin-left: 5vw;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 12px;
+    font-size: 50px;
+}
+
+.text span{
+    color: #dbb4ff; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: "Poppins" , sans-serif;
+}
+
+.text-and-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amauriane-principal{
+    width: 20vw;
+    margin-right: 15vw;
+    margin-top: 10vh;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    box-shadow: 1px 5px 5px rgba(86, 49, 128, 0.527);
+}
+
+.amauriane-principal:hover{
+    scale: 1.1;
+}
+
+.texto{
+    color: #fff;
+    font-weight: 50;
+    font-size: 20px;
+    margin-top: 3%;
+    text-align: center;
+    font-family: "Poppins" , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sobre{
+    color: #fff;
+    font-weight: 50;
+    font-size: 18px;
+    margin-top: 1%;
+    text-align: justify;
+    font-family: "Poppins" , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.podcast{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.paragrafo{
+    color: #fff;
+    font-weight: 50;
+    font-size: 18px;
+    text-align:justify;
+    font-family: "Poppins" , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Episodios{
+    color: #fff;
+    font-weight: 50;
+    font-size: 15px;
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Poppins" , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.descricao{
+    color: #fff;
+    font-weight: 50;
+    font-size: 18px;
+    text-align:justify;
+    font-family: "Poppins" , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.titulo{
+    color: #fff;
+    font-weight: 50;
+    font-size: 22px;
+    text-align:center;
+    font-family: "Poppins" , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.amaurianefoto{
+    width: 40vw;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+
+}
